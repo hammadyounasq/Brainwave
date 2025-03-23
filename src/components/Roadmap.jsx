@@ -5,7 +5,7 @@ import Heading from "./Heading";
 import Section from "./Section";
 import { Gradient } from "./design/Roadmap";
 import Button from "./Button";
-import TagLine from "./design/Tagline";
+import TagLine from "./design/TagLine";
 const Roadmap = () => {
   return (
     <Section className="overflow-hidden" id="roadmap">
