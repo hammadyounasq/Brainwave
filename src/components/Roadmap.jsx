@@ -1,10 +1,11 @@
 import { grid, loading1, check2 } from "../assets";
 import { roadmap } from "../constants";
-import Tagline from "./design/Tagline";
+
 import Heading from "./Heading";
 import Section from "./Section";
 import { Gradient } from "./design/Roadmap";
 import Button from "./Button";
+import TagLine from "./design/Tagline";
 const Roadmap = () => {
   return (
     <Section className="overflow-hidden" id="roadmap">
@@ -34,7 +35,7 @@ const Roadmap = () => {
                   </div>
                   <div className="relative z-1">
                     <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
-                      <Tagline>{item.date}</Tagline>
+                      <TagLine>{item.date}</TagLine>
 
                       <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
                         <img
